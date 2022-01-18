@@ -8,7 +8,7 @@ const LandingPage = () => {
       <Link to="/login">
         <button>로그인</button>
       </Link>
-      <Link to="/register">
+      <Link to="/signup">
         <button>회원가입하러 가기</button>
       </Link>
     </div>
