@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { withRouter } from 'react-router-dom'
 
 //이름, 전화번호(인증), 아이디, 비밀번호, 비밀번호확인(?)
-function RegisterPage() {
+function SignUpPage() {
   const [Name, setName] = useState("")
   const [PhoneNum, setPhoneNum] = useState("")
   const [Id, setId] = useState("")
@@ -60,4 +60,4 @@ function RegisterPage() {
   )
 }
 
-export default withRouter(RegisterPage)
+export default SignUpPage

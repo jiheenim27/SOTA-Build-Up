@@ -1,11 +1,15 @@
-import React, { useState } from 'react'
+import React from "react";
+import { Link } from "react-router-dom";
 
-function LoginPage() {
+const LoginPage = () => {
   return (
     <div>
-      LoginPage
+      <h1>로그인 페이지</h1>
+      <Link to="/">
+          <button>뒤로가기</button>
+      </Link>
     </div>
-  )
-}
+  );
+};
 
-export default LoginPage
+export default LoginPage;
