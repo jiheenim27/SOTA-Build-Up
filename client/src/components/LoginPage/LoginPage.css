@@ -12,6 +12,7 @@ body {
     font-family: noto-sans-cjk-kr,sans-serif;
 }
 
+/* 입력창 테두리 */
 input {
     background: #FFFFFF;
 
@@ -19,6 +20,7 @@ input {
     border-bottom: 0.1rem solid #DBDBDB;
 }
 
+/* 자동로그인, 아이디 비번 찾기 텍스트 */
 #auto_login_border, #find_id, #bar, #find_password {
     font-style: normal;
     font-weight: normal;
@@ -35,8 +37,9 @@ input {
 
 a {
     text-decoration: none;
-}
+} 
 
+/* 타이틀 (로그인) */
 .title {
     position: absolute;
     width: 46.2rem;
@@ -53,6 +56,7 @@ a {
     color: #000000;
 }
 
+/* 아이디 */
 #id{
     position: absolute;
     width: 35.5rem;
@@ -61,6 +65,7 @@ a {
     top: 40.8rem;
 }
 
+/* 비밀번호 */
 #password {
     position: absolute;
     width: 35.5rem;
@@ -69,6 +74,7 @@ a {
     top: 47.5rem;
 }
 
+/* 자동 로그인 */
 #auto_login_border {
 
     position: absolute;
@@ -80,6 +86,7 @@ a {
     color: #767676;
 }
 
+/* 아이디 찾기 */
 #find_id {
     position: absolute;
     width: 5.8rem;
@@ -91,6 +98,7 @@ a {
 
 }
 
+/* 구분선 */
 #bar {
     position: absolute;
     width: 1.3rem;

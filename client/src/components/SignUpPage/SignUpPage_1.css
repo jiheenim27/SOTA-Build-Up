@@ -1,4 +1,4 @@
-@import url(reset.css);
+@import url(/client/src/components/reset.css);
 
 html {
     font-size: 10px;
@@ -11,7 +11,7 @@ body {
 
     font-family: noto-sans-cjk-kr,sans-serif;
 }
-
+/* 입력창 테두리 */
 input {
     background: #FFFFFF;
 
@@ -19,6 +19,7 @@ input {
     border-bottom: 0.1rem solid #DBDBDB;
 }
 
+/* 라벨 텍스트 */
 label {
     font-style: normal;
     font-weight: normal;
@@ -26,6 +27,7 @@ label {
     line-height: 2.2rem;
 }
 
+/* 로고 */
 #logo {
     position: absolute;
     width: 7.6rem;
@@ -80,7 +82,7 @@ p {
 }
 
 /* 아이디 */
-#email_area {
+#id_area {
     position: absolute;
     width: 35.5rem;
     height: 8rem;
@@ -88,7 +90,7 @@ p {
     top: 31.6rem;
 }
 
-#email {
+#id {
     position: absolute;
     width: 35.5rem;
     height: 5rem;
@@ -119,7 +121,7 @@ p {
     width: 14rem;
     height: 4.9rem;
     left: 21.5rem;
-    top: 3.1rem;
+    top: 3.5rem;
 
     background-color: #FFCC00;
     border-radius: 0.5rem;
@@ -157,7 +159,7 @@ p {
     width: 35.5rem;
     height: 1.6rem;
     left: 0rem;
-    top: 8rem;
+    top: 9rem;
 
 }
 
@@ -185,7 +187,7 @@ p {
     width: 35.5rem;
     height: 1.6rem;
     left: 0rem;
-    top: 8rem;
+    top: 9rem;
 
 }
 
@@ -214,7 +216,7 @@ p {
     width: 35.5rem;
     height: 6.2rem;
     left: 54.2rem;
-    top: 81.8rem;
+    top: 82.8rem;
 }
 
 #textbox > p {
