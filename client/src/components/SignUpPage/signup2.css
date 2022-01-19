@@ -74,6 +74,8 @@ html {
 input:focus {outline:none;}
 
 .yellow-btn {
+    width: 35.5rem;
+    margin-top: 1.3rem;
     text-align: center;
     height: 4.8rem;
     padding: 1.2rem 8rem;
@@ -83,9 +85,3 @@ input:focus {outline:none;}
     font-weight: 700;
     font-size: 1.5rem;
 }
-
-.signup-btn {
-    width: 35.5rem;
-    margin-top: 1.3rem;
-}
-
