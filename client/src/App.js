@@ -1,5 +1,5 @@
 import React from "react";
-import Routing from "./components/LandingPage/Routing";
+import Routing from "./components/Routing";
 
 function App() {
   return <Routing />;
